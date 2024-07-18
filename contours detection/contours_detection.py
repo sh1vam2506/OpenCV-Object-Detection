@@ -21,7 +21,7 @@ cv2.createTrackbar("Threshold1", "Parameters", 73, 255, empty)
 cv2.createTrackbar("Threshold2", "Parameters", 71, 255, empty)
 cv2.createTrackbar("Area", "Parameters", 7391, 30000, empty)
 
-# stack function, combines images into one
+#stack function, combines images into one
 def stackImages(scale, imgArray):
     rows = len(imgArray)
     cols = len(imgArray[0])
